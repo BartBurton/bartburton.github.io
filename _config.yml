@@ -1,9 +1,9 @@
 # Site
-repository:  BartBurton/bartburton.github.io
+repository: BartBurton/bartburton.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 1
+version: 2
 
 # Personal info
 name: Никитин Максим
@@ -15,21 +15,20 @@ email: bburtonzero@gmail.com
 darkmode: never
 
 # Social links
-github_username:  BartBurton
+github_username: BartBurton
 
 # Additional icon links
 additional_links:
-- title: telegram
-  icon: fab fa-telegram
-  url: https://t.me/bburtonext
+  - title: telegram
+    icon: fab fa-telegram
+    url: https://t.me/bburtonext
 
 # About Section
 about_title: Обо мне
 about_content: |
   Попробовал разные направления разработки. Всегда стремлюсь к улучшению своих навыков.
-  
+
   Программирую с осени 2018 года на C#. С 12.2020 пишу фронтенд на VueJS. С 08.2021 – на React.
-  
 
 content:
   - title: Скиллы
@@ -55,10 +54,8 @@ content:
         description: |
           - HTML, CSS, JS, TS
           - Babel, Webpack
-          - ESLint
           - NodeJS, npm, yarn
-          - Axios
-          - JQuery
+          - ESLint, Axios, JQuery
       - layout: left
         title: С#/ASP.NET
         description: |
@@ -69,7 +66,6 @@ content:
           - AutoMapper, Versioning, Swashbuckle, Newtonsoft
           - ClosedXML, ExcelDataReader
 
-
   - title: Проекты
     layout: list
     content:
@@ -77,7 +73,7 @@ content:
         title: OAK
         link: github.com/BartBurton/OAK
         additional_links:
-          - title:  Github
+          - title: Github
             icon: fab fa-github
             url: github.com/BartBurton/OAK
           - title: Figma
@@ -90,7 +86,7 @@ content:
         title: Aviasalo
         link: github.com/BartBurton/Aviasalo
         additional_links:
-          - title:  Github
+          - title: Github
             icon: fab fa-github
             url: github.com/BartBurton/Aviasalo
           - title: YouTube
@@ -103,7 +99,7 @@ content:
         title: oxoGame
         link: github.com/BartBurton/oxo
         additional_links:
-          - title:  Github
+          - title: Github
             icon: fab fa-github
             url: github.com/BartBurton/oxo
           - title: YouTube
@@ -116,7 +112,7 @@ content:
         title: FloppyCat
         link: github.com/BartBurton/_Game
         additional_links:
-          - title:  Github
+          - title: Github
             icon: fab fa-github
             url: github.com/BartBurton/_Game
           - title: YouTube
@@ -124,7 +120,6 @@ content:
             url: www.youtube.com/watch?v=vdg7_jSLSM8
         description: |
           Реализация игры Floppy Bird на языке C# без игровых движков
-      
 
   - title: Опыт работы
     layout: list
@@ -135,23 +130,22 @@ content:
         sub_title: Frontend Developer
         caption: Август 2021 — Текущий момент
         description: |
-            Пишу фронтенд для проекта Exon (https://exonproject.ru/):
-            - писал код для основного приложения
-            - проектировал архитектуру и писал с нуля дополнительный модуль системы - Бакнинг, для оплаты строительных контрактов через блокчейн
-            - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
-            - рефакторил архитектуру приложения
+          Пишу фронтенд для проекта Exon (https://exonproject.ru/):
+          - писал код для основного приложения
+          - проектировал архитектуру и писал с нуля дополнительный модуль системы - Бакнинг, для оплаты строительных контрактов через блокчейн
+          - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
+          - рефакторил архитектуру приложения
       - layout: left
         title: BPO Travel
         link: https://bpo.travel
         sub_title: Fullstack Developer
         caption: Декабрь 2020 — Август 2021
         description: |
-            Писал фронт и бэк для b2b и b2c систем компании:
-            - Писал b2c/b2b для продажи авиабилетов, получаемых со стороннего api
-            - Писал приложение для заведения и продажи собственных билетов
-            - Писал и оптимизировал приложение для обработки Excel отчетов
-            - Занимался поддержкой и развитием маленьких стартапов компании
-
+          Писал фронт и бэк для b2b и b2c систем компании:
+          - Писал b2c/b2b для продажи авиабилетов, получаемых со стороннего api
+          - Писал приложение для заведения и продажи собственных билетов
+          - Писал и оптимизировал приложение для обработки Excel отчетов
+          - Занимался поддержкой и развитием маленьких стартапов компании
 
   - title: Образование
     layout: list
@@ -162,7 +156,7 @@ content:
         sub_title: Бакалавриат "Информационные системы и технологии"
         description: |
           За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в фронтенд разработке.
-          
+
           Разрабатывал
           - игры на Unity (С#)
           - desktop приложение на WinForms (C#)
@@ -175,7 +169,7 @@ content:
         caption: 2018 - 2021
         sub_title: Бакалавриат "Информатика и вычислительная техника"
         description: |
-          
+
           Разрабатывал
           - desktop приложение на WinForms (C#)
           - desktop приложение на Delphi (Pascal)
@@ -194,4 +188,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
