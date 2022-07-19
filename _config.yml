@@ -1,0 +1,197 @@
+# Site
+repository:  tipapro/tipapro.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 1
+
+# Personal info
+name: Никитин Максим
+title: Frontend Developer (2 года опыта)
+email: bburtonzero@gmail.com
+#website: https://github.com/BartBurton
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  BartBurton
+
+# Additional icon links
+additional_links:
+- title: telegram
+  icon: fab fa-telegram
+  url: https://t.me/bburtonext
+
+# About Section
+about_title: Обо мне
+about_content: |
+  Попробовал разные направления разработки. Всегда стремлюсь к улучшению своих навыков.
+  
+  Программирую с осени 2018 года на C#. С 12.2020 пишу фронтенд на VueJS. С 08.2021 – на React.
+  
+
+content:
+  - title: Скиллы
+    layout: list
+    content:
+        - layout: left
+        title: React
+        description: |
+          - React Hooks, React Native
+          - Redux, Redux Toolkit, Redux Saga
+          - React Router v5/v6
+          - MUI, Tailwind, AntDesign
+          - React Hook Form, Formik, Yup
+      - layout: left
+        title: VueJS
+        description: |
+          - Vue 2 / Vue 3 
+          - Vuex
+          - Vue Router
+          - Vuetify
+      - layout: left
+        title: Frontend
+        description: |
+          - HTML, CSS, JS, TS
+          - Babel, Webpack
+          - ESLint
+          - NodeJS, npm, yarn
+          - Axios
+          - JQuery
+        - layout: left
+        title: С#/ASP.NET
+        description: |
+          - .NET Framework, .NET Core
+          - WebAPI, Razor Pages, MVC
+          - EntityFramework, MSSQL
+          - NLog, Serilog
+          - AutoMapper, Versioning, Swashbuckle, Newtonsoft
+          - ClosedXML, ExcelDataReader
+
+
+  - title: Проекты
+    layout: list
+    content:
+      - layout: left
+        title: OAK
+        link: github.com/BartBurton/OAK
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/BartBurton/OAK
+          - title: Figma
+            icon: fab fa-figma
+            url: www.figma.com/file/BYTh1N1SZmSZAvHyhFz5vK/start-page
+        description: |
+          WEB приложение для чтения и написания статей, статьи относятся к разделам, разделы структурированы в виде дерева (ASP.NET MVC)
+
+      - layout: left
+        title: Aviasalo
+        link: github.com/BartBurton/Aviasalo
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/BartBurton/Aviasalo
+          - title: YouTube
+            icon: fab fa-youtube
+            url: www.youtube.com/watch?v=DgGgCABFsEU&t=60s
+        description: |
+          Приложение для бронирования авиабилетов, имеющее админскую часть (Laravel + VueJS)
+
+        - layout: left
+        title: oxoGame
+        link: github.com/BartBurton/oxo
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/BartBurton/oxo
+          - title: YouTube
+            icon: fab fa-youtube
+            url: www.youtube.com/watch?v=nd8Oo20SZAc
+        description: |
+          Мобильная игра крестики-нолики (React Native)
+
+        - layout: left
+        title: FloppyCat
+        link: github.com/BartBurton/_Game
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/BartBurton/_Game
+          - title: YouTube
+            icon: fab fa-youtube
+            url: www.youtube.com/watch?v=vdg7_jSLSM8
+        description: |
+          Реализация игры Floppy Bird на языке C# без игровых движков
+      
+
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: Integro
+        link: https://int-group.ru/
+        sub_title: Frontend Developer
+        caption: Август 2021 — Текущий момент
+        description: |
+            Пишу фронтенд для проекта Exon (https://exonproject.ru/):
+            - писал код для основного приложения
+            - проектировал архитектуру и писал с нуля дополнительный модуль системы - Бакнинг, для оплаты строительных контрактов через блокчейн
+            - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
+            - рефакторил архитектуру приложения
+        - layout: left
+        title: BPO Travel
+        link: https://bpo.travel
+        sub_title: Fullstack Developer
+        caption: Декабрь 2020 — Август 2021
+        description: |
+            Писал фронт и бэк для b2b и b2c систем компании:
+            - Писал b2c/b2b для продажи авиабилетов, получаемых со стороннего api
+            - Писал приложение для заведения и продажи собственных билетов
+            - Писал и оптимизировал приложение для обработки Excel отчетов
+            - Занимался поддержкой и развитием маленьких стартапов компании
+
+
+  - title: Образование
+    layout: list
+    content:
+      - layout: left
+        title: Московский политехнический университет
+        caption: 2021 - 2023
+        sub_title: Бакалавриат "Информационные системы и технологии"
+        description: |
+          За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в фронтенд разработке.
+          
+          Разрабатывал
+          - игры на Unity (С#)
+          - desktop приложение на WinForms (C#)
+          - веб API на ASP.NET (C#)
+          - веб API на Laravel (PHP)
+          - веб сайт на Vue (JS)
+
+      - layout: left
+        title: Забайкальский государственный университет
+        caption: 2018 - 2021
+        sub_title: Бакалавриат "Информатика и вычислительная техника"
+        description: |
+          
+          Разрабатывал
+          - desktop приложение на WinForms (C#)
+          - desktop приложение на Delphi (Pascal)
+          - desktop приложение на QT (C++)
+          - веб сайт на ASP.NET MVC (C#/HTML)
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
