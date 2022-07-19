@@ -35,7 +35,7 @@ content:
   - title: Скиллы
     layout: list
     content:
-        - layout: left
+      - layout: left
         title: React
         description: |
           - React Hooks, React Native
@@ -59,7 +59,7 @@ content:
           - NodeJS, npm, yarn
           - Axios
           - JQuery
-        - layout: left
+      - layout: left
         title: С#/ASP.NET
         description: |
           - .NET Framework, .NET Core
@@ -99,7 +99,7 @@ content:
         description: |
           Приложение для бронирования авиабилетов, имеющее админскую часть (Laravel + VueJS)
 
-        - layout: left
+      - layout: left
         title: oxoGame
         link: github.com/BartBurton/oxo
         additional_links:
@@ -112,7 +112,7 @@ content:
         description: |
           Мобильная игра крестики-нолики (React Native)
 
-        - layout: left
+      - layout: left
         title: FloppyCat
         link: github.com/BartBurton/_Game
         additional_links:
@@ -140,7 +140,7 @@ content:
             - проектировал архитектуру и писал с нуля дополнительный модуль системы - Бакнинг, для оплаты строительных контрактов через блокчейн
             - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
             - рефакторил архитектуру приложения
-        - layout: left
+      - layout: left
         title: BPO Travel
         link: https://bpo.travel
         sub_title: Fullstack Developer
