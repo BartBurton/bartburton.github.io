@@ -42,6 +42,7 @@ content:
           - React Router v5/v6
           - MUI, Tailwind, AntDesign
           - React Hook Form, Formik, Yup
+          - React Query
       - layout: left
         title: VueJS
         description: |
