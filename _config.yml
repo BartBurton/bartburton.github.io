@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Никитин Максим
-title: Frontend Developer (2 года опыта)
+title: Frontend Developer (2.5 года опыта)
 email: bburtonzero@gmail.com
 #website: https://github.com/BartBurton
 
@@ -27,9 +27,11 @@ additional_links:
 about_title: Обо мне
 about_profile_image: images/profile.jpg
 about_content: |
-  Попробовал разные направления разработки. Всегда стремлюсь к улучшению своих навыков.
+  Программирую с осени 2018 года на C#. С 2020 пишу фронтенд на React и VueJS.
 
-  Программирую с осени 2018 года на C#. С 12.2020 пишу фронтенд на VueJS. С 08.2021 – на React.
+  Успел попробовать разные технологии и направления JavaScript, TypeScript, React, VueJS, .Net/C#, Unity, C++, Laravel, JQuery.
+
+  Быстро осваиваюсь с неизвестными языками, подходами и библиотеками. Устойчив к изменениям и сложностям в работе.
 
 content:
   - title: Скиллы
@@ -41,23 +43,28 @@ content:
           - React Hooks, React Native
           - Redux, Redux Toolkit, Redux Saga
           - React Router v5/v6
-          - MUI, Tailwind, AntDesign
-          - React Hook Form, Formik, Yup
-          - React Query
+          - MUI, AntDesign
+          - React Hook Form, Formik
+          - React Query, React Spring
       - layout: left
         title: VueJS
         description: |
           - Vue 2 / Vue 3 
-          - Vuex
-          - Vue Router
-          - Vuetify
+          - Vuex, Vue Router, Vuetify
+      - layout: left
+        title: Common
+        description: |
+          - Git, GitHub, GitLab, Bitbacket
+          - Figma, Postman, draw.io
+          - VSCode, VisualStudio, Rider
+          - (React/Vue) Devtools
       - layout: left
         title: Frontend
         description: |
-          - HTML, CSS, JS, TS
-          - Babel, Webpack
+          - Webpack, Babel
           - NodeJS, npm, yarn
-          - ESLint, Axios, JQuery
+          - HTML, CSS, JS, TS
+          - ESLint, Axios, Tailwind, Yup, SASS, JQuery
       - layout: left
         title: С#/ASP.NET
         description: |
@@ -67,6 +74,29 @@ content:
           - NLog, Serilog
           - AutoMapper, Versioning, Swashbuckle, Newtonsoft
           - ClosedXML, ExcelDataReader
+
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: Integro
+        link: https://int-group.ru/
+        sub_title: Frontend Developer (React, TypeScript)
+        caption: Март 2021 — Текущий момент
+        description: |
+          Разрабатываю фронтенд для проектов Департамента строительства города Москвы:
+          - Разработал модуль банкинг для интеграции портала Exon (Платформа для управления строительными проектами) с Альфа банком. Модуль построен на основе технологии взаиморасчётов средствами смартконтрактов и блокчейн технолгии Waves.
+          - Спроектировал и реализовал микрофронтенд приложение портала Exon, для построения бизнес процессов в спецификации BPMN. С использованием технологии bpmn.io (https://bpmn.io/)
+      - layout: left
+        title: Red Wings (ООО "БПО")
+        link: https://bpo.travel
+        sub_title: Fullstack Developer (.NET/C#, React, VueJs, JQuery)
+        caption: Июнь 2020 — Февраль 2021
+        description: |
+          - Разработал систему для продажи авиабилетов онлайн. Приложение работало как для клиентов, так и для авторизированных агентов. Для агентов продажа проводилось в обход онлайн платежа. Агенты могли заводить субагентов, субагенты своих субагентов и т.д. Агент мог в любой момент запретить своему субагенту работать, что приводило к запрету на работу всей ветви, идущей далее от отключенного субагента. При создании субагента ему выделялись билеты, которые он мог реализовать. Цены на билеты менялись в зависимости от того сколько их осталось и от наценок агентов. Каждый агент мог получить отчет по продажам своих субагентов.
+          - Написал утилиту для проверки файлов на вирусы, запускаемую из контекстного меню файлов Windows. Утилита отправляла запрос с файлом на сервер, который вел логи кто, когда и с какого компьютера сделал запрос. Сервер в свою очередь перенаправлял файл на сервис VirusTotal.
+          - Занимался разработкой приложения для преобразования Excel отчетов. Отчет из одного вида преобразовывался в другой. Преобразование разделялось на несколько этапов, в зависимости от бизнес-условий. Поток выполнения этапов преобразования - конвеерный с распаралеленным выполнением, т.е. когда часть файла обаботалась на одном этапе она переходит на следующий, а та, которая еще не обработалась на предыдущем этапе переходит на него и части обрабатываются на разных этапах параллельно.
+          - Проектировал api для работы с шлюзом - Sirena Travel (https://www.sirena-travel.ru/)
 
   - title: Проекты
     layout: list
@@ -82,7 +112,7 @@ content:
             icon: fab fa-figma
             url: www.figma.com/file/BYTh1N1SZmSZAvHyhFz5vK/start-page
         description: |
-          WEB приложение для чтения и написания статей, статьи относятся к разделам, разделы структурированы в виде дерева (ASP.NET MVC)
+          WEB приложение для чтения и написания статей, статьи относятся к разделам, которые структурированы в виде дерева и создаются пользователями. В приложении используются чистые HTML/CSS/JS. Присутствует логика аутентификации и восстановления доступа через письмо на почту. (ASP.NET MVC)
 
       - layout: left
         title: Aviasalo
@@ -95,7 +125,7 @@ content:
             icon: fab fa-youtube
             url: www.youtube.com/watch?v=DgGgCABFsEU&t=60s
         description: |
-          Приложение для бронирования авиабилетов, имеющее админскую часть (Laravel + VueJS)
+          Приложение для бронирования авиабилетов, имеющее админскую часть. Интерфейс приложения меняется в зависимости от прав авторизованного пользователя. (Laravel + VueJS/Vuetify)
 
       - layout: left
         title: oxoGame
@@ -108,7 +138,7 @@ content:
             icon: fab fa-youtube
             url: www.youtube.com/watch?v=nd8Oo20SZAc
         description: |
-          Мобильная игра крестики-нолики (React Native)
+          Мобильная игра крестики-нолики. Логика игры отделена от интерфейса приложения и может быть использована не только для React приложений. Компоненты подписываются на определенные данные игры через кастомные хуки. (React Native)
 
       - layout: left
         title: FloppyCat
@@ -121,33 +151,7 @@ content:
             icon: fab fa-youtube
             url: www.youtube.com/watch?v=vdg7_jSLSM8
         description: |
-          Реализация игры Floppy Bird на языке C# без игровых движков
-
-  - title: Опыт работы
-    layout: list
-    content:
-      - layout: left
-        title: Integro
-        link: https://int-group.ru/
-        sub_title: Frontend Developer
-        caption: Август 2021 — Текущий момент
-        description: |
-          Пишу фронтенд для проекта Exon (https://exonproject.ru/):
-          - писал код для основного приложения
-          - проектировал архитектуру и писал с нуля дополнительный модуль системы - Бакнинг, для оплаты строительных контрактов через блокчейн
-          - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
-          - рефакторил архитектуру приложения
-      - layout: left
-        title: BPO Travel
-        link: https://bpo.travel
-        sub_title: Fullstack Developer
-        caption: Декабрь 2020 — Август 2021
-        description: |
-          Писал фронт и бэк для b2b и b2c систем компании:
-          - Писал b2c/b2b для продажи авиабилетов, получаемых со стороннего api
-          - Писал приложение для заведения и продажи собственных билетов
-          - Писал и оптимизировал приложение для обработки Excel отчетов
-          - Занимался поддержкой и развитием маленьких стартапов компании
+          Реализация игры Floppy Bird на языке C# без игровых движков. В игре изменены оригинальные спрайты. Есть 2 режима: классический из оригинальной игры и собственный ускоренный.
 
   - title: Образование
     layout: list
