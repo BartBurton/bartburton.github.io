@@ -6,16 +6,13 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Никитин Максим
-title: Frontend Developer (2.5 года опыта)
+name: Никитин Максим Анатольевич
+title: Software Developer
 email: bburtonzero@gmail.com
 #website: https://github.com/BartBurton
 
 # Dark Mode (true/false/never)
 darkmode: never
-
-# Social links
-github_username: BartBurton
 
 # Additional icon links
 additional_links:
@@ -25,162 +22,88 @@ additional_links:
 
 # About Section
 about_title: Обо мне
-about_profile_image: images/profile.jpg
+about_profile_image: images/face.jpeg
 about_content: |
-  Программирую с осени 2018 года на C#. С 2020 пишу фронтенд на React и VueJS.
-
-  Успел попробовать разные технологии и направления JavaScript, TypeScript, React, VueJS, .Net/C#, Unity, C++, Laravel, JQuery.
-
-  Быстро осваиваюсь с неизвестными языками, подходами и библиотеками. Устойчив к изменениям и сложностям в работе.
+  
 
 content:
-  - title: Скиллы
+  - title: Образование
     layout: list
     content:
       - layout: left
-        title: React
+        title: Московский Политехнический Университет
+        caption: 2021 - 2023 (Оконченное)
+        sub_title: Бакалавриат "Информационные системы и технологии"
         description: |
-          - React Hooks, React Native
-          - Redux, Redux Toolkit, Redux Saga
-          - React Router v5/v6
-          - MUI, AntDesign
-          - React Hook Form, Formik
-          - React Query, React Spring
+          Направление "Программное обеспечения игровой компьютерной индустрии"
+
       - layout: left
-        title: VueJS
+        title: Забайкальский Государственный Университет
+        caption: 2018 - 2021 (Неоконченное)
+        sub_title: Бакалавриат "Информатика и вычислительная техника"
         description: |
-          - Vue 2 / Vue 3 
-          - Vuex, Vue Router, Vuetify
-      - layout: left
-        title: Common
-        description: |
-          - Git, GitHub, GitLab, Bitbacket
-          - Figma, Postman, draw.io
-          - VSCode, VisualStudio, Rider
-          - (React/Vue) Devtools
-      - layout: left
-        title: Frontend
-        description: |
-          - Webpack, Babel
-          - NodeJS, npm, yarn
-          - HTML, CSS, JS, TS
-          - ESLint, Axios, Tailwind, Yup, SASS, JQuery
-      - layout: left
-        title: С#/ASP.NET
-        description: |
-          - .NET Framework, .NET Core
-          - WebAPI, Razor Pages, MVC
-          - EntityFramework, MSSQL
-          - NLog, Serilog
-          - AutoMapper, Versioning, Swashbuckle, Newtonsoft
-          - ClosedXML, ExcelDataReader
+          Направление "Разработка автоматизированных систем"
+
+          В середине третьего курса перевелся в Московский Политех на второй курс.
 
   - title: Опыт работы
     layout: list
     content:
       - layout: left
+        title: Билайн (ВымпелКом-Информационные технологии)
+        link: https://moskva.beeline.ru/
+        sub_title: Старший Frontend Developer (React, TypeScript)
+        caption: Октябрь 2022 — Текущий момент
+        description: |
+          Разработка и проектирования UI приложений в рамках реализации B2B решений компании:
+          - Разработка и проектирование редактора сценариев поведения ботов с искуственным интеллектом.
+          - Разработка микрофронтенд приложения умного поиска, основанного на машинном обучении, для упрощения алгоритма завдения внутренних заявок.
+      - layout: left
         title: Integro
         link: https://int-group.ru/
         sub_title: Frontend Developer (React, TypeScript)
-        caption: Март 2021 — Текущий момент
+        caption: Май 2022 — Октябрь 2022
         description: |
-          Разрабатываю фронтенд для проектов Департамента строительства города Москвы:
-          - Разработал модуль банкинг для интеграции портала Exon (Платформа для управления строительными проектами) с Альфа банком. Модуль построен на основе технологии взаиморасчётов средствами смартконтрактов и блокчейн технолгии Waves.
-          - Спроектировал и реализовал микрофронтенд приложение портала Exon, для построения бизнес процессов в спецификации BPMN. С использованием технологии bpmn.io (https://bpmn.io/)
+          Разработка UI для проектов Департамента строительства города Москвы:
+          - Модуль банкинг для интеграции платформы управления строительными проектами с Альфа банком.
+          - Микрофронтенд приложение, для построения бизнес процессов в спецификации BPMN.
       - layout: left
         title: Red Wings (ООО "БПО")
         link: https://bpo.travel
-        sub_title: Fullstack Developer (.NET/C#, React, VueJs, JQuery)
-        caption: Июнь 2020 — Февраль 2021
+        sub_title: Fullstack Developer (.NET/C#, JavaScript)
+        caption: Апрель 2021 — Май 2022
         description: |
-          - Разработал систему для продажи авиабилетов онлайн. Приложение работало как для клиентов, так и для авторизированных агентов. Для агентов продажа проводилось в обход онлайн платежа. Агенты могли заводить субагентов, субагенты своих субагентов и т.д. Агент мог в любой момент запретить своему субагенту работать, что приводило к запрету на работу всей ветви, идущей далее от отключенного субагента. При создании субагента ему выделялись билеты, которые он мог реализовать. Цены на билеты менялись в зависимости от того сколько их осталось и от наценок агентов. Каждый агент мог получить отчет по продажам своих субагентов.
-          - Написал утилиту для проверки файлов на вирусы, запускаемую из контекстного меню файлов Windows. Утилита отправляла запрос с файлом на сервер, который вел логи кто, когда и с какого компьютера сделал запрос. Сервер в свою очередь перенаправлял файл на сервис VirusTotal.
-          - Занимался разработкой приложения для преобразования Excel отчетов. Отчет из одного вида преобразовывался в другой. Преобразование разделялось на несколько этапов, в зависимости от бизнес-условий. Поток выполнения этапов преобразования - конвеерный с распаралеленным выполнением, т.е. когда часть файла обаботалась на одном этапе она переходит на следующий, а та, которая еще не обработалась на предыдущем этапе переходит на него и части обрабатываются на разных этапах параллельно.
-          - Проектировал api для работы с шлюзом - Sirena Travel (https://www.sirena-travel.ru/)
+          Поддержка и реализация продуктов компании, покрывающих различные перечни задач. 
+          - В первую очередь сервисы для продажи авиа-билетов B2C и B2B.
+          - Реализация и поддержка системы формирования отчетов. Интегрирация системы в сервисы продажи билетов.
+          - Обеспечение реализации различных скриптов, утилит и статичных сайтов по требованию компании. В частности, написание скрипты для автоматизации простых, но рутинных задач других сотрудников. Разработка утилит для упрощения выполняемых другими сотрудниками действий. Верстка сайтов для B2C направлений компании.
 
-  - title: Проекты
+  - title: Скиллы
     layout: list
     content:
       - layout: left
-        title: OAK
-        link: github.com/BartBurton/OAK
-        additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: github.com/BartBurton/OAK
-          - title: Figma
-            icon: fab fa-figma
-            url: www.figma.com/file/BYTh1N1SZmSZAvHyhFz5vK/start-page
+        title: Gamedev
         description: |
-          WEB приложение для чтения и написания статей, статьи относятся к разделам, которые структурированы в виде дерева и создаются пользователями. В приложении используются чистые HTML/CSS/JS. Присутствует логика аутентификации и восстановления доступа через письмо на почту. (ASP.NET MVC)
-
+          - Unity, C#, Netcode for GameObjects, URP, AutoLOD,
+          C++, SFML, Boost, vcpkg,
+          Blender, Mixamo, Piskel, Photoshop, Midjourney, Audacity
       - layout: left
-        title: Aviasalo
-        link: github.com/BartBurton/Aviasalo
-        additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: github.com/BartBurton/Aviasalo
-          - title: YouTube
-            icon: fab fa-youtube
-            url: www.youtube.com/watch?v=DgGgCABFsEU&t=60s
+        title: Frontend
         description: |
-          Приложение для бронирования авиабилетов, имеющее админскую часть. Интерфейс приложения меняется в зависимости от прав авторизованного пользователя. (Laravel + VueJS/Vuetify)
-
+          - JavaScript, TypeScript, HTML, CSS, React, 
+          React Native, VueJS, SCSS, Webpack, Redux, Vuex, 
+          Redux Saga, React/Vue Router, React Query, 
+          RTK Query, React Hook Form, React Flow, Axios, yup, ESLint, JQuery
       - layout: left
-        title: oxoGame
-        link: github.com/BartBurton/oxo
-        additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: github.com/BartBurton/oxo
-          - title: YouTube
-            icon: fab fa-youtube
-            url: www.youtube.com/watch?v=nd8Oo20SZAc
+        title: Backend
         description: |
-          Мобильная игра крестики-нолики. Логика игры отделена от интерфейса приложения и может быть использована не только для React приложений. Компоненты подписываются на определенные данные игры через кастомные хуки. (React Native)
-
+          - .NET/C#, ASP.NET, SQL, MSSQL, EntityFramework, Serilog, 
+          AutoMapper, Versioning, ClosedXML, ExcelDataReader, Newtonsoft,
+          NodeJS, Koa, PHP, Laravel
       - layout: left
-        title: FloppyCat
-        link: github.com/BartBurton/_Game
-        additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: github.com/BartBurton/_Game
-          - title: YouTube
-            icon: fab fa-youtube
-            url: www.youtube.com/watch?v=vdg7_jSLSM8
+        title: Other
         description: |
-          Реализация игры Floppy Bird на языке C# без игровых движков. В игре изменены оригинальные спрайты. Есть 2 режима: классический из оригинальной игры и собственный ускоренный.
-
-  - title: Образование
-    layout: list
-    content:
-      - layout: left
-        title: Московский политехнический университет
-        caption: 2021 - 2023
-        sub_title: Бакалавриат "Информационные системы и технологии"
-        description: |
-          За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в фронтенд разработке.
-
-          Разрабатывал
-          - игры на Unity (С#)
-          - desktop приложение на WinForms (C#)
-          - веб API на ASP.NET (C#)
-          - веб API на Laravel (PHP)
-          - веб сайт на Vue (JS)
-
-      - layout: left
-        title: Забайкальский государственный университет
-        caption: 2018 - 2021
-        sub_title: Бакалавриат "Информатика и вычислительная техника"
-        description: |
-
-          Разрабатывал
-          - desktop приложение на WinForms (C#)
-          - desktop приложение на Delphi (Pascal)
-          - desktop приложение на QT (C++)
-          - веб сайт на ASP.NET MVC (C#/HTML)
+          - Git, GitHub, GitLab, Jira, GitHub Projects, Trello, VS Code, Visual Studio, draw.io
 
 # Footer
 footer_show_references: false
